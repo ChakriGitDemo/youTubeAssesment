@@ -1,0 +1,19 @@
+{
+    "bookinApplication":{
+      "BookingTitle":"Booking",
+      "BookingFullTitle":"Booking.com | Official site | The best hotels, flights, car rentals & accommodations",
+      "countryName":"Paris"
+   },
+
+   "youTubeApplication":{
+    "YouTubeTitle":"YouTube",
+    "YouTubeURL":"https://www.youtube.com/",
+    "SearchQuery":"Selenium tutorial"
+
+   },
+   "targetApplication":{
+      "TargetURL":"https://www.target.com/",
+      "SearchTerm":"Watches"
+   }
+ 
+}

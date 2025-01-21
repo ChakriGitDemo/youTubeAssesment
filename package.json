@@ -3,14 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+ "scripts": {
+  "test": "npx playwright test",
+   "bookings": "npx playwright test booking.spec.js --project=chromium",
+   "target":"npx playwright test target.spec.js --project=chromium",
+   "testim":"npx playwright test testim.spec.js --project=chromium",
+   "youTube":"npx playwright test youTube.spec.js --project=chromium",
+  "allure:generate": "allure generate allure-results -o allure-report --clean ",
+    "allure:open": "allure open allure-report",
+    "test:allure": "npm run allure:generate && npm run allure:open"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.48.2",
     "@types/node": "^22.9.0",
-    "allure-playwright": "^3.0.6"
+    "allure-playwright": "^3.0.7"
   },
   "dependencies": {
     "dotenv": "^16.4.5"
